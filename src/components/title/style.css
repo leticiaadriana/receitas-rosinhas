@@ -1,0 +1,23 @@
+.titleSection{
+    background-color: #E597B8;
+    text-align: center;
+    padding: 25px 0;
+}
+
+h1 {
+    color: #A50029;
+    font-weight: 600;
+    font-size: 30pt;
+}
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 25pt;
+  }
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 20pt;
+  }
+}

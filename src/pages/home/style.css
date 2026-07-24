@@ -1,0 +1,29 @@
+.purpleSection{
+    background-color: #DEB4E3;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.purpleSection img{
+    height: 250px;
+}
+
+.purpleSection h3{
+    color: #A50029;
+    font-size: 20pt;
+    width: 25vw;
+}
+
+@media (max-width: 768px) {
+    .purpleSection img{
+        height: 200px;
+    }
+    .purpleSection h3{
+        font-size: 18pt;
+        width: 45vw;
+    }
+}
