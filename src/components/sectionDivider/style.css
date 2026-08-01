@@ -1,0 +1,26 @@
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 500px;
+  margin: 40px auto 30px;
+  color: #A50029;
+  padding-top: 20px;
+}
+
+.divider-line {
+  flex: 1;
+  height: 2px;
+  background-color: #A50029;
+}
+
+.divider-star {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.divider-diamond {
+  font-size: 12px;
+  line-height: 1;
+}

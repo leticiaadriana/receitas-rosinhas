@@ -1,0 +1,73 @@
+.exploreSection {
+    background-color: #DEB4E3;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.exploreTitle {
+    color: #A50029;
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+.filterButtons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.filterBtn {
+    background: none;
+    border: none;
+    color: #A50029;
+    font-size: 16pt;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    
+}
+.filterBtn img{
+    width: 150px;
+    height: auto;
+}
+
+.filterBtn:hover{
+    background-color: #eccef0;
+}
+
+.filterBtn.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.allRecipesSection {
+    background-color: #FBD9E4;
+    padding-bottom: 60px;
+}
+
+.allRecipesTitle {
+    text-align: center;
+    color: #A50029;
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+.allRecipesStatus {
+    text-align: center;
+    color: #A50029;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+.exploreTitle {
+    font-size: 18pt;
+}
+.filterButtons {
+    gap: 50px;
+}
+.allRecipesTitle {
+    font-size: 18pt;
+}
+}

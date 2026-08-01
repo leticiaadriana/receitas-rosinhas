@@ -1,0 +1,107 @@
+.reset-password-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background: linear-gradient(180deg, #f7c6d9 0%, #dcc0eb 100%);
+ }
+
+.reset-password-box {
+  background-color: #ffffff;
+  border: 2px solid #e79cba;
+  border-radius: 20px;
+  padding: 40px 36px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(163, 19, 74, 0.18);
+  text-align: center;
+}
+
+.reset-password-box h3 {
+  color: #A50029;
+  font-size: 1.7rem;
+  margin: 0 0 12px;
+}
+
+.reset-subtitle {
+  color: #b5567a;
+  font-size: 0.95rem;
+  font-style: italic;
+  margin: 0 0 28px;
+  line-height: 1.4;
+}
+
+.reset-password-box form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 6px;
+}
+
+.reset-password-box label {
+  color: #A50029;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+
+.reset-password-box input {
+  font-family: sans-serif;
+  padding: 10px 14px;
+  border: 2px solid #e79cba;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #6b3f82;
+  background-color: #fbe1ec;
+  outline: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.reset-password-box input:focus {
+  border-color: #A50029;
+  background-color: #ffffff;
+}
+
+.reset-password-box button {
+  margin-top: 24px;
+  background-color: #d16b93;
+  color: #ffffff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 999px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(163, 19, 74, 0.25);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.reset-password-box button:hover:not(:disabled) {
+  background-color: #A50029;
+  transform: translateY(-2px);
+}
+
+.reset-password-box button:disabled {
+  background-color: #e2a9c1;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.reset-password-box .error {
+  color: #c0392b;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  margin: 6px 0 0;
+}
+
+@media (max-width: 480px) {
+  .reset-password-box {
+    padding: 32px 24px;
+  }
+
+  .reset-password-box h3 {
+    font-size: 1.4rem;
+  }
+}

@@ -9,21 +9,63 @@
 }
 
 .purpleSection img{
-    height: 250px;
+height: 250px;
 }
 
 .purpleSection h3{
+color: #A50029;
+font-size: 20pt;
+width: 25vw;
+}
+
+.homeRecipesSection {
+    background-color: #FBD9E4;
+    padding-bottom: 50px;
+}
+
+.homeRecipesTitle {
+    text-align: center;
     color: #A50029;
-    font-size: 20pt;
-    width: 25vw;
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+.homeRecipesStatus {
+    text-align: center;
+    color: #A50029;
+    padding: 20px 0;
+}
+
+.verMaisWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.verMaisBtn {
+    background-color: #E597B8;
+    color: #A50029;
+    font-weight: 700;
+    padding: 12px 45px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14pt;
+    transition: background-color 0.2s;
+}
+
+.verMaisBtn:hover {
+    background-color: #d97ea6;
 }
 
 @media (max-width: 768px) {
-    .purpleSection img{
-        height: 200px;
+.purpleSection img{
+height: 200px;
     }
-    .purpleSection h3{
-        font-size: 18pt;
-        width: 45vw;
+.purpleSection h3{
+font-size: 18pt;
+width: 45vw;
     }
+.homeRecipesTitle {
+    font-size: 18pt;
+}
 }
